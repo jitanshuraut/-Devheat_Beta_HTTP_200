@@ -1,0 +1,43 @@
+[debug] [2022-05-13T02:25:46.930Z] ----------------------------------------------------------------------
+[debug] [2022-05-13T02:25:46.931Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-13T02:25:46.932Z] CLI Version:   10.9.2
+[debug] [2022-05-13T02:25:46.932Z] Platform:      win32
+[debug] [2022-05-13T02:25:46.932Z] Node Version:  v16.14.0
+[debug] [2022-05-13T02:25:46.933Z] Time:          Fri May 13 2022 07:55:46 GMT+0530 (India Standard Time)
+[debug] [2022-05-13T02:25:46.933Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-13T02:25:46.984Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-13T02:25:46.984Z] > authorizing via signed-in user (jayeshastha@gmail.com)
+[debug] [2022-05-13T02:25:46.984Z] [iam] checking project crown-pad-ja for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-13T02:25:46.986Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/crown-pad-ja:testIamPermissions [none]
+[debug] [2022-05-13T02:25:46.986Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/crown-pad-ja:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-05-13T02:25:48.927Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/crown-pad-ja:testIamPermissions 200
+[debug] [2022-05-13T02:25:48.927Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/crown-pad-ja:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-05-13T02:25:48.928Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crown-pad-ja [none]
+[debug] [2022-05-13T02:25:49.655Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crown-pad-ja 200
+[debug] [2022-05-13T02:25:49.655Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crown-pad-ja {"projectId":"crown-pad-ja","projectNumber":"948965480966","displayName":"crown-pad-JA","name":"projects/crown-pad-ja","resources":{"hostingSite":"crown-pad-ja"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'crown-pad-ja'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-05-13T02:25:49.662Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crown-pad-ja [none]
+[debug] [2022-05-13T02:25:50.652Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crown-pad-ja 200
+[debug] [2022-05-13T02:25:50.652Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crown-pad-ja {"projectId":"crown-pad-ja","projectNumber":"948965480966","displayName":"crown-pad-JA","name":"projects/crown-pad-ja","resources":{"hostingSite":"crown-pad-ja"},"state":"ACTIVE"}
+[debug] [2022-05-13T02:25:50.655Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/948965480966/sites/crown-pad-ja/versions [none]
+[debug] [2022-05-13T02:25:50.655Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/948965480966/sites/crown-pad-ja/versions {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-05-13T02:25:52.806Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/948965480966/sites/crown-pad-ja/versions 500
+[debug] [2022-05-13T02:25:52.806Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/948965480966/sites/crown-pad-ja/versions {"error":{"code":500,"message":"Internal error encountered.","status":"INTERNAL"}}
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2022-05-13T02:25:53.100Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500
+  }
+}

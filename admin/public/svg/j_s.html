@@ -1,0 +1,49 @@
+<html>
+<style>
+div {
+  border: 1px solid black;
+  padding: 16px;
+  font-size: 24px;
+}
+</style>
+
+<body>
+<h1>The Element Object</h1>
+<h2>The getElementsByClassName() Method</h2>
+
+<div id="myDIV">
+  <p class="child">I am a paragraph.</p>
+  <p class="child">I am a paragraph.</p>
+  <p class="child">I am a paragraph.</p>
+  <p>I am a paragraph <span class="child">with a span element</span>.</p>
+</div>
+
+<p>Click "Change" to change the color of all elements with class="child":</p>
+
+<button onclick="myFunction()">Change</button>
+
+<div class="test">
+    <h1>hiiiiiiiiiii</h1>
+</div>
+
+<script>
+// function myFunction() {
+  const element = document.getElementById("myDIV");
+  let nodes = element.getElementsByClassName("child");
+  for (let i = 0; i < nodes.length; i++) {
+    nodes[i].style.color = "red";
+  }
+
+  function myFunction() {
+      const element1=document.getElementsByClassName("test");
+      element1[0].style.color="red";
+      element1[0].style.backgroundColor="black";
+      
+
+  }
+// }
+</script>
+
+</body>
+</html>
+
