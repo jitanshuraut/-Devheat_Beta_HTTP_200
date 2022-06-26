@@ -1,0 +1,209 @@
+h1{
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+  background-color: transparent;
+  
+}
+.tophead{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+.exam{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 90%;
+    background-color: transparent;
+}
+.timer{
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    background-color: rgb(11, 0, 128);
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+.exttimer{
+    margin: 3px;
+    background-color: transparent;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    margin-top:20px ;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  color: black;
+     border-radius: 10px;
+    
+     background-color: rgb(216, 216, 216);
+
+}
+.ptag{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+p{
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right: 5px ;
+    border-width: 10px;
+    border-color: rgba(136, 102, 241, 1);
+    padding-left: 10px;
+}
+
+.textarea{
+    margin-top: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(59, 44, 62);
+    width: 100%;
+   
+    background-color: white;
+}
+.textarea_ext{
+  margin-top: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(0, 0, 0);
+  width: 100%;
+  background-color: #eec9f4;
+}
+.extbutton{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+}
+.button{
+    margin: 5px;
+    margin-left: auto;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.1s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    background-color: rgb(11, 0, 128);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  .button_ext{
+    margin: 15px;
+ font-size: 15px;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    background-color: rgb(11, 0, 128);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button:active {
+    transform: scale(0.85);
+    color: black;
+  }
+  .button_{
+    
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.3s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #605be4;
+    background-image: linear-gradient(to right, #212B6C 0%, #3747aa  51%, #212B6C  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button_:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button_:active {
+    transform: scale(0.95);
+    color: black;
+  }
+  .modalbody{
+   margin: 20px;
+   padding: 10px;
+   border-radius: 10px;
+    /* background: linear-gradient(152.65deg, rgba(141, 79, 250, 0.35) 3.05%, rgba(95, 14, 237, 0.225) 117.74%);
+    border: 1px solid rgba(141, 79, 250, 0.3);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(141, 79, 250, 0.15), inset 0px 0px 20px rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px); */
+    border-radius: 10px;
+    background: rgba(34, 30, 61, 0.4);
+    box-shadow: 0px 0px 20px rgba(241, 76, 202, 0.05);
+
+
+  }
+  .modaltitel{
+    color: white;
+    border-radius: 10px;
+    background: rgba(34, 30, 61, 0.4);
+    box-shadow: 0px 0px 20px rgba(241, 76, 202, 0.05);
+
+  }
+  .footer{
+    border-radius: 10px;
+  
+display: flex;
+   
+  }
+  .modalhead{
+    color: black;
+  }

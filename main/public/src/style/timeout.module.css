@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: white;
+    padding: 25px;
+    margin: auto;
+    margin-top:40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* z-index: 0; */
+    border-radius: 10px;
+} 
+.documentIcon{
+    width: 50px;
+    margin: auto;
+    background-color: transparent;
+}
+.subName {
+    font-family: Montserrat;
+    font-weight: 500;
+    background-color: white;
+}
+
+.btn {
+    /* height: 35px; */
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: #683DFF;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}

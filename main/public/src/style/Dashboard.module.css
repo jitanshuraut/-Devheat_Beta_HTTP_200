@@ -1,0 +1,50 @@
+.head{
+    background-color: black;
+    padding: 10px;
+    font-size: 35px;
+    color: white;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+.head_{
+    width: 80%;
+    margin: auto;
+   
+}
+.button{
+    background-color: black;
+    color: white;
+}
+.ext{
+   
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.test_given{
+    width: 70%;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+background-color: rgb(216, 216, 216);
+}
+.h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.chartcon{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10px;
+   height: 600px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.flexbox{
+    display: flex;
+    
+}

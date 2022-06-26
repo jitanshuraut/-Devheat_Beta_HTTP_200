@@ -1,0 +1,121 @@
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.card6 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    /* height: 180px; */
+    /* background-image: url(bg_card.png); */
+    padding: 25px;
+    margin: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* z-index: 0; */
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    /* background-size: 400px 230px; */
+    background-size: cover;
+    background-color: transparent;
+
+}
+
+.documentIcon50{
+    width: 350px;
+    height: 250px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+.test_box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.test_head {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    background-color: transparent;
+
+}
+
+.button {
+    background: linear-gradient(180deg, #F44CC9 0%, #8B4FFB 100%);
+    border-radius: 5px;
+    font-style: normal;
+
+
+    font-weight: 600;
+
+
+    text-align: center;
+
+    text-transform: uppercase;
+    font-size: 13px;
+
+    color: #FFFFFF;
+    padding: 10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.head {
+    text-align: center;
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+
+
+}
+.documentIcon{
+    width: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+@media only screen and (min-width: 700px) {
+   
+.container{
+    justify-content: center;
+}
+    .test_box {
+        width: 20%;
+    }
+
+    .head {
+
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 500px) {
+
+    .card6 {
+            width: 250px;
+            height: 280px;
+            background-size: cover;
+            background-color: transparent;
+            margin: 15px;
+    
+        }
+    
+        .documentIcon50{
+            width: 240px;
+        }
+    
+    }

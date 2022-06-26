@@ -1,0 +1,152 @@
+.test_final {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    flex-direction: column;
+    margin: 10px;
+}
+
+.test_box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #bbbdc1;
+}
+.documentIcon{
+    width: 50px;
+    margin: auto;
+    background-color: transparent;
+}
+.box{
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+.img_box{
+    width: 100px;
+}
+.test_head {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    background-color: transparent;
+
+}
+
+/* .button {
+
+    border-radius: 5px;
+    font-style: normal;
+
+
+    font-weight: 600;
+
+
+    text-align: center;
+
+    text-transform: uppercase;
+    font-size: 13px;
+
+    color: #FFFFFF;
+    padding: 10px;
+    width: 40%;
+    margin: 10px;
+} */
+         
+.btn {
+    background-image: linear-gradient(to right, #212B6C 0%, #3747aa  51%, #212B6C  100%);
+    margin: 10px;
+    padding: 5px 35px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+.head {
+    text-align: center;
+    margin: 30px;
+    color: black;
+    font-size: 25px;
+
+
+}
+
+@media only screen and (min-width: 700px) {
+    .test_final {
+        flex-direction: row;
+    }
+
+    .test_box {
+        width: 20%;
+    }
+
+    .head {
+
+        font-size: 35px;
+    }
+    .card5 {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 180px;
+        /* background-image: url(bg_card.png); */
+        padding: 25px;
+        margin: 25px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        /* z-index: 0; */
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        /* background-size: 400px 230px; */
+        background-size: cover;
+        background-color: transparent;
+    
+    }
+    
+    .documentIcon5 {
+        width: 50px;
+        /* background-color: white; */
+        background-color: transparent;
+    
+    }
+    
+    .subName5 {
+        font-family: Montserrat;
+        font-weight: 500;
+        background-color: transparent;
+    
+    }
+}
+@media only screen and (max-width: 500px){
+    .card5 {
+        width: 250px;
+        height: 180px;
+        background-size: cover;
+        background-color: transparent;
+
+    }
+}
